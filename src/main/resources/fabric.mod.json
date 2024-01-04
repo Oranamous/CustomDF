@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "customdf",
+  "version": "${version}",
+  "name": "CustomDF",
+  "description": "",
+  "authors": [
+    "DawnKiro"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/customdf/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [],
+    "main": [
+      "net.voxelden.customdf.CustomDF"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
